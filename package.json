@@ -1,0 +1,32 @@
+{
+  "name": "babel-plugin-transform-es2015-classes-simple",
+  "version": "1.0.0",
+  "description": "transform es2015 classes with loose mode + without call check",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyx990803/babel-plugin-transform-es2015-classes-simple.git"
+  },
+  "keywords": [
+    "babel",
+    "transform",
+    "classes"
+  ],
+  "author": "Evan You",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yyx990803/babel-plugin-transform-es2015-classes-simple/issues"
+  },
+  "homepage": "https://github.com/yyx990803/babel-plugin-transform-es2015-classes-simple#readme",
+  "dependencies": {
+    "babel-helper-optimise-call-expression": "^6.8.0",
+    "babel-helper-function-name": "^6.8.0",
+    "babel-helper-replace-supers": "^6.8.0",
+    "babel-template": "^6.8.0",
+    "babel-traverse": "^6.8.0",
+    "babel-helper-define-map": "^6.8.0",
+    "babel-messages": "^6.8.0",
+    "babel-runtime": "^6.0.0",
+    "babel-types": "^6.8.0"
+  }
+}
